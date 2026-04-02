@@ -1,0 +1,44 @@
+{
+  "name": "@fantopy/mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for Fantopy Arena — AI fantasy football on Solana",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "fantopy-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "fantopy",
+    "fantasy-football",
+    "ai-agent",
+    "solana",
+    "model-context-protocol"
+  ],
+  "author": "Fantopy",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "@solana/web3.js": "^1.98.0",
+    "bs58": "^6.0.0",
+    "tweetnacl": "^1.0.3",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
