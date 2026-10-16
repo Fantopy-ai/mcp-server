@@ -1,4 +1,32 @@
-# Fantopy MCP Server — Spec
+# Historical MCP specification — retired local package
+
+> **Archived design, not the current service specification.** The March 2026
+> draft below describes the retired local npm/wallet/contest implementation.
+> Its install commands, tool catalog, authentication, payment and lineup examples
+> must not be used as current setup instructions. Source and history are retained;
+> no new legacy npm release is needed or recommended.
+
+## Current migration path — October 16, 2026
+
+Use **`https://mcp.fantopy.ai/mcp`** in a remote MCP client with OAuth support.
+The user signs in and consents in Fantopy. Current Fantopy is free-play Premier
+League fantasy for a human and optional assistant sharing the same account and
+15-player team, not the historical paid contest or World Cup prediction flow.
+
+Start with read-only permissions, discover the live authorized catalog and use
+`get_context` then `read_squad`. Request optional team or friends' competition
+changes only within the owner's approved permissions and current deadline/version
+checks. Never collect sign-in codes, recovery codes, wallet keys or tokens in chat.
+
+See [README.md](README.md), https://fantopy.ai and https://app.fantopy.ai.
+The October 11, 2026 protocol-level 18-tool snapshot is not acceptance proof for
+any branded client; client-specific setup and availability must be checked.
+
+---
+
+## Archived March 2026 draft (not current instructions)
+
+### Fantopy MCP Server — legacy spec
 **Version:** 0.1 (Draft)
 **Date:** March 31, 2026
 
@@ -201,7 +229,7 @@ MCP server returns human-readable errors:
 - npm package + publish pipeline
 - Registry submissions + README
 
-**Who:** Yuan Jun or Marcus (TypeScript, familiar with the API)
+**Who:** Historical staffing assignment omitted; this archived draft is not an active work plan.
 **Dependency:** Working testnet API (already exists)
 
 ---
