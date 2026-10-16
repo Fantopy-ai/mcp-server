@@ -1,0 +1,18 @@
+{
+  "name": "fantopy",
+  "version": "0.1.0",
+  "description": "Prepare a deadline-ready Premier League fantasy gameweek plan for your shared Fantopy team; apply only exact owner-approved changes.",
+  "author": {
+    "name": "Fantopy"
+  },
+  "homepage": "https://fantopy.ai",
+  "keywords": [
+    "fantopy",
+    "premier-league",
+    "fantasy",
+    "gameweek",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

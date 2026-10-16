@@ -1,0 +1,12 @@
+{
+  "name": "fantopy-local-test",
+  "owner": {
+    "name": "Fantopy"
+  },
+  "plugins": [
+    {
+      "name": "fantopy",
+      "source": "plugins/fantopy"
+    }
+  ]
+}

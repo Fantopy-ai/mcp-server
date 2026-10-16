@@ -51,6 +51,16 @@ availability depends on the current server and grant.
 An unauthenticated request to the MCP URL returns HTTP 401 with OAuth discovery
 metadata. This is expected, not evidence that the server has no tools.
 
+## Local-test release candidate
+
+[Fantopy Gameweek Manager plugin/skill](plugins/fantopy/README.md) is a
+**local-test release candidate**, not a marketplace-approved release or proof of
+acceptance in any named client. For local testing, copy only `plugins/fantopy/`
+(including its `.cursor-plugin` directory), not this legacy repository root.
+See its [remaining in-app acceptance checklist](plugins/fantopy/TESTING.md).
+The root marketplace manifest only locates this plugin; it is not a submission
+or approval. The deprecated package and source below remain historical.
+
 ## Historical repository
 
 The TypeScript source, package manifest and lockfile are preserved for history.
